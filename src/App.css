@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #c6cac6;
+}
+.dashboard {
+  background-color: rgb(229, 229, 229);
+  padding: 1.5rem;
+  border-radius: 50%;
+  color: rgb(108, 104, 104);
+  margin: 1rem;
+}
+.search-con {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  padding: 1.5rem;
+}
+
+.search {
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: #66ff99;
+  font-weight: 600;
+  color: rgb(72, 70, 70);
+  cursor: pointer;
+  &:hover {
+    background-color: #85fc65;
+  }
+}
+.static {
+  margin-top: 5rem;
+  background-color: rgb(161, 158, 158);
+  padding: 3rem 24rem;
+}
+.fhaksfklas {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.search1 {
+  padding: 0.7rem 0.8rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: #66ff99;
+  font-weight: 600;
+  color: rgb(72, 70, 70);
+  cursor: pointer;
+  &:hover {
+    background-color: #85fc65;
+  }
+}
+.fdsa {
+  display: flex;
+  gap: 10rem;
+  background-color: #e3f99c;
+  border-radius: 1rem;
+  padding: 2rem;
+  font-weight: 500;
+  > div {
+    text-align: start;
+  }
+}
+.intData{
+  display: flex;
+  gap:10rem;
+  >div{
+    text-align: start;
+    
+  }
+}
